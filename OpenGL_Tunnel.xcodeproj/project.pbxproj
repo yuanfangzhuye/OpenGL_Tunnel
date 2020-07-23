@@ -13,6 +13,10 @@
 		F2E93CD124C8134600877A8A /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2E93CD024C8134600877A8A /* OpenGL.framework */; };
 		F2E93CD324C8134E00877A8A /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2E93CD224C8134E00877A8A /* GLUT.framework */; };
 		F2E93CD524C8135600877A8A /* libGLTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F2E93CD424C8135600877A8A /* libGLTools.a */; };
+		F2E93CEA24C8399300877A8A /* floor.tga in Resources */ = {isa = PBXBuildFile; fileRef = F2E93CE624C8399300877A8A /* floor.tga */; };
+		F2E93CEB24C8399300877A8A /* ceiling.tga in Resources */ = {isa = PBXBuildFile; fileRef = F2E93CE724C8399300877A8A /* ceiling.tga */; };
+		F2E93CEC24C8399300877A8A /* stone.tga in Resources */ = {isa = PBXBuildFile; fileRef = F2E93CE824C8399300877A8A /* stone.tga */; };
+		F2E93CED24C8399300877A8A /* brick.tga in Resources */ = {isa = PBXBuildFile; fileRef = F2E93CE924C8399300877A8A /* brick.tga */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +43,10 @@
 		F2E93CE324C8136500877A8A /* wglew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wglew.h; sourceTree = "<group>"; };
 		F2E93CE424C8136500877A8A /* glew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glew.h; sourceTree = "<group>"; };
 		F2E93CE524C8136500877A8A /* GLTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLTools.h; sourceTree = "<group>"; };
+		F2E93CE624C8399300877A8A /* floor.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = floor.tga; sourceTree = "<group>"; };
+		F2E93CE724C8399300877A8A /* ceiling.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = ceiling.tga; sourceTree = "<group>"; };
+		F2E93CE824C8399300877A8A /* stone.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = stone.tga; sourceTree = "<group>"; };
+		F2E93CE924C8399300877A8A /* brick.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = brick.tga; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +83,10 @@
 		F2E93CB824C8130800877A8A /* OpenGL_Tunnel */ = {
 			isa = PBXGroup;
 			children = (
+				F2E93CE924C8399300877A8A /* brick.tga */,
+				F2E93CE724C8399300877A8A /* ceiling.tga */,
+				F2E93CE624C8399300877A8A /* floor.tga */,
+				F2E93CE824C8399300877A8A /* stone.tga */,
 				F2E93CD624C8136500877A8A /* include */,
 				F2E93CBF24C8130A00877A8A /* Assets.xcassets */,
 				F2E93CC124C8130A00877A8A /* Main.storyboard */,
@@ -181,6 +193,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2E93CEC24C8399300877A8A /* stone.tga in Resources */,
+				F2E93CEB24C8399300877A8A /* ceiling.tga in Resources */,
+				F2E93CED24C8399300877A8A /* brick.tga in Resources */,
+				F2E93CEA24C8399300877A8A /* floor.tga in Resources */,
 				F2E93CC024C8130A00877A8A /* Assets.xcassets in Resources */,
 				F2E93CC324C8130A00877A8A /* Main.storyboard in Resources */,
 			);
